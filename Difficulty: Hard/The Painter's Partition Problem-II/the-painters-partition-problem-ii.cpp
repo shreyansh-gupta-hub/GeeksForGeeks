@@ -28,8 +28,9 @@ class Solution {
             }
         }
         return low;
-}
+    }
     int minTime(vector<int>& arr, int k) {
+        // code here
         return findPages(arr,k);
     }
 };
